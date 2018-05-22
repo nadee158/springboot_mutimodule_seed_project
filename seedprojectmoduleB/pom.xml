@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.test</groupId>
+		<artifactId>seedproject</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>seedprojectmoduleB</artifactId>
+	<packaging>jar</packaging>
+
+	<name>seedproject_moduleB</name>
+
+	<description>Module B of Seed project</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+	
+		<dependency>
+			<groupId>com.test</groupId>
+			<artifactId>seedprojectmoduleA</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
